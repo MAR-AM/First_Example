@@ -1,0 +1,21 @@
+n1=float(input('enter the first note : '))
+n2=float(input('enter the second note : '))
+n3=float(input('enter the third note : '))
+while n1>20 or n1<0 :
+    n1=float(input('enter the first note (enter a value between 1 and 20) : '))
+while n2>20 or n2<0:
+    n2=float(input('enter the second note (enter a value between 1 and 20) : '))
+while n3>20 or n3<0:
+   n3=float(input('enter the third note (enter a value between 1 and 20) : '))
+m=(n1+n2+n3)/3
+print('the average is :',m)
+if m>=16:
+    print('Very GOOD!')
+elif m>=14 and m<16:
+    print('GOOD!')
+elif m>=12 and m<14:
+    print("It's OK!")
+elif m>=10 and m<12:
+    print('Acceptable!')
+else:
+    print('Insufficient')
