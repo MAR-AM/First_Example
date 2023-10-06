@@ -1,3 +1,5 @@
+#python
+
 n1=float(input('enter the first note : '))
 n2=float(input('enter the second note : '))
 n3=float(input('enter the third note : '))
@@ -19,3 +21,49 @@ elif m>=10 and m<12:
     print('Acceptable!')
 else:
     print('Insufficient')
+
+ 
+ #algorithme NOTE
+ #variables
+ #          n1 , n2 , n3 , m : reel
+                     f       : chaine de caracters
+ #Debut
+ #     Ecrire("tapez La première note : ") 
+ #     Lire(n1) 
+ #     Ecrire("tapez La deuxième note : ") 
+ #     Lire(n2) 
+ #     Ecrire("tapez La troisième note : ") 
+ #     Lire(n3)  
+ #     tant que n1 > 20 ou n1 < 0 faire 
+ #         Ecrire("tapez La première note (la note doit etre compris entre 0 et 20): ") 
+ #         Lire(n1) 
+ #     fin tant que 
+ #     tant que n2 > 20 ou n2 < 0 faire 
+ #         Ecrire("tapez La deuxième note (la note doit etre compris entre 0 et 20): ") 
+ #         Lire(n2) 
+ #     fin tant que 
+ #     tant que n3 > 20 ou n3 < 0 faire 
+ #         Ecrire("tapez La troisième note (la note doit etre compris entre 0 et 20): ") 
+ #         Lire(n3) 
+ #     fin tant que 
+ #      m=(n1+n2+n3)/3
+ #     si m >= 16 alors 
+ #        f <-- "tres bien" 
+ #     sinon 
+ #         si m < 16 et m >= 14 alors 
+ #            f <-- "bien" 
+ #         sinon 
+ #             si m < 14 et m >= 12 alors 
+ #                f <-- "assez bien" 
+ #             sinon 
+ #                 si m < 12 et m >= 10 alore 
+ #                    f <-- "passable" 
+ #                 sinon 
+ #                     si m < 10 alors 
+ #                         f <-- "insuffisant" 
+ #                     fin_si 
+ #                 fin_si 
+ #             fin_si 
+ #         fin_si 
+ #     fin_si 
+ #     Ecrire("la moyenne est : ",m,"est : ",f)
